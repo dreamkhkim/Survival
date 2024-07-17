@@ -147,7 +147,6 @@ public class RangedBehaviourStrategy : BehaviourStrategy
 
         
 
-
         if (monster.attackTimeCheck >= monster.bulletIntervalcheck)
         {
             isFireCheck = false;
@@ -189,7 +188,6 @@ public class RangedBehaviourStrategy : BehaviourStrategy
             manMonster.muzzleFlash.Emit(0);
         }
        
-        Debug.Log("헤헤");
     }
 
     IEnumerator EnemyCover()
