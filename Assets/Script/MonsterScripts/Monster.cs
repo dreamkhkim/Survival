@@ -91,12 +91,11 @@ public class MeleeBehaviourStrategy : BehaviourStrategy
                 monster.ResetAttackCoolDown();
             }
         }
+        
         else
         {
             monster.Anim.SetBool("MeleeAttack", false);
         }
-
-
     }
 }
 
